@@ -12,7 +12,7 @@ export const Container = styled.div`
     align-items: center;
 
     button {
-      background: #6159e7;
+      background: #333
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -75,6 +75,7 @@ export const Container = styled.div`
   button {
     background: none;
     border: 0;
+
   }
 
 
