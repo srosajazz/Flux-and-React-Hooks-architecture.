@@ -1,3 +1,10 @@
+/*
+COLORS:
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+*/
+
 import styled from 'styled-components';
 import { darken } from 'polished';
 export const Container = styled.div`
@@ -22,7 +29,7 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.03, '#2359e7')}
+        background: ${darken(0.03, '#55c57a')}
       }
 
     }

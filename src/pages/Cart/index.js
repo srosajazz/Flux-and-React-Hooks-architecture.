@@ -19,12 +19,12 @@ export default function Cart() {
         <tbody>
           <tr>
             <td>
-            <img src="https://static.netshoes.com.br/produtos/tenis-nike-dart-12-msl-masculino/26/D12-2683-026/D12-2683-026_detalhe1.jpg?resize=280:280" alt="Nike Roshe One"
+            <img src="https://nb.scene7.com/is/image/NB/m880wt9_nb_02_i?$dw_pgp_hd$&wid=180&hei=180&qlt=85&resMode=bisharp&fmt=webp" alt="880v9"
            />
            </td>
            <td>
              <strong>greats shoes sale</strong>
-             <span>U$129,90</span>
+             <span>$124.99</span>
            </td>
            <td>
             <div>
@@ -50,7 +50,7 @@ export default function Cart() {
       </ProductTable>
 
       <footer>
-        <button type="button">Complete your order</button>
+        <button type="button">Your bag is empty</button>
 
         <Total>
           <span>TOTAL</span>
