@@ -1,6 +1,5 @@
 import React from 'react';
 import { MdRemoveCircleOutline, MdAddCircleOutline, MdDelete } from 'react-icons/md';
-
 import { Container, ProductTable, Total } from './styles';
 
 export default function Cart() {
@@ -19,7 +18,7 @@ export default function Cart() {
         <tbody>
           <tr>
             <td>
-            <img src="https://nb.scene7.com/is/image/NB/m880wt9_nb_02_i?$dw_pgp_hd$&wid=180&hei=180&qlt=85&resMode=bisharp&fmt=webp" alt="880v9"
+            <img src="https://www.stadiumgoods.com/media/catalog/product/cache/1/image/600x/9df78eab33525d08d6e5fb8d27136e95/3/7/378037_100_1.png" alt="880v9"
            />
            </td>
            <td>

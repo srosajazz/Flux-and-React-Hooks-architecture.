@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/12.3.1/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add redux react-redux
+  /usr/local/Cellar/node/12.3.1/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add recatotron-react-js reactotron-redux
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin
@@ -14,7 +14,17 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/sergiorosa_local/Documents/Flux-Architecture/node_modules/.bin/acorn'
+  Error: https://registry.yarnpkg.com/recatotron-react-js: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:129590:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130562:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1137:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
 
 npm manifest: 
   {
@@ -37,7 +47,7 @@ npm manifest:
       "reactotron-react-js": "^3.3.2",
       "reactotron-redux": "^3.1.1",
       "reactotron-redux-saga": "^4.2.2",
-      "redux": "^4.0.1",
+      "redux": "^4.0.4",
       "redux-saga": "^1.0.5",
       "styled-components": "^4.3.2"
     },
@@ -8925,7 +8935,7 @@ Lockfile:
     dependencies:
       "@redux-saga/core" "^1.0.3"
   
-  "redux@>=0.10 <5", redux@^4.0.1:
+  "redux@>=0.10 <5", redux@^4.0.4:
     version "4.0.4"
     resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.4.tgz#4ee1aeb164b63d6a1bcc57ae4aa0b6e6fa7a3796"
     integrity sha512-vKv4WdiJxOWKxK0yRoaK3Y4pxxB0ilzVx6dszU2W8wLxlb2yikRph4iV/ymtdJ6ZxpBLFbyrxklnT5yBbQSl3Q==
