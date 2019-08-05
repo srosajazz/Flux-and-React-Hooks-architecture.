@@ -5,16 +5,17 @@ import {
   MdAddCircleOutline,
   MdDelete,
 } from 'react-icons/md';
+
 import { Container, ProductTable, Total } from './styles';
 
-function Cart({ cart }) {
+function Cart({ cart, dispatch }) {
   return (
     <Container>
       <ProductTable>
         <thead>
           <tr>
             <th />
-            <th>PRODUCT</th>
+            <th>PRODUTO</th>
             <th>QTD</th>
             <th>SUBTOTAL</th>
             <th />
@@ -42,10 +43,15 @@ function Cart({ cart }) {
                 </div>
               </td>
               <td>
-                <strong>U$258,80</strong>
+                <strong>R$258,80</strong>
               </td>
               <td>
-                <button type="button">
+                <button
+                  type="button"
+                  onClick={() =>
+                    dispatch({ type: 'REMOVE_FROM_CART', id: product.id })
+                  }
+                >
                   <MdDelete size={20} color="#7159c1" />
                 </button>
               </td>
@@ -55,8 +61,7 @@ function Cart({ cart }) {
       </ProductTable>
 
       <footer>
-        <button type="button">Complete your order</button>
-
+        <button type="button">Finish your order</button>
         <Total>
           <span>TOTAL</span>
           <strong>U$1920,28</strong>
@@ -69,4 +74,5 @@ function Cart({ cart }) {
 const mapStateToProps = state => ({
   cart: state.cart,
 });
+
 export default connect(mapStateToProps)(Cart);

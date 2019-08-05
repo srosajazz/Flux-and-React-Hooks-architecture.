@@ -7,6 +7,7 @@ Dark green: #28b485
 
 import styled from 'styled-components';
 import { darken } from 'polished';
+
 export const Container = styled.div`
   padding: 30px;
   background: #fff;
@@ -36,7 +37,7 @@ export const Container = styled.div`
   }
 
 `;
- export const ProductTable = styled.table`
+export const ProductTable = styled.table`
   width: 100%;
 
   thead th {
@@ -55,7 +56,7 @@ export const Container = styled.div`
   }
 
   strong {
-    color:#333;
+    color: #333;
     display: block;
   }
 
@@ -82,26 +83,19 @@ export const Container = styled.div`
   button {
     background: none;
     border: 0;
+  }
+`;
+export const Total = styled.div`
+  display: flex;
+  align-items: baseline;
 
+  span {
+    color: #999;
+    font-weight: bold;
   }
 
-
-
- `;
- export const Total = styled.div`
-
- display: flex;
- align-items: baseline;
-
- span {
-   color: #999;
-   font-weight: bold;
-
- }
-
- strong {
-   font-size: 28px;
-   margin-left: 5px;
- }
-
- `;
+  strong {
+    font-size: 28px;
+    margin-left: 5px;
+  }
+`;

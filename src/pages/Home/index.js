@@ -5,7 +5,7 @@ import { formatPrice } from '../../util/format';
 import api from '../../services/api';
 import { ProductList } from './styles';
 
- class Home extends Component {
+class Home extends Component {
   state = {
     products: [],
   };
@@ -20,13 +20,14 @@ import { ProductList } from './styles';
 
     this.setState({ products: data });
   }
+
   handleAddProduct = product => {
     const { dispatch } = this.props;
 
     dispatch({
       type: 'ADD_TO_CART',
       product,
-    })
+    });
   };
 
   render() {
@@ -40,7 +41,10 @@ import { ProductList } from './styles';
             <strong>{product.title}</strong>
             <span>{product.priceFormatted}</span>
 
-            <button type="button" onClick={() => this.handleAddProduct(product)}>
+            <button
+              type="button"
+              onClick={() => this.handleAddProduct(product)}
+            >
               <div>
                 <MdAddShoppingCart size={16} color="#FFF" /> 3
               </div>
@@ -51,6 +55,6 @@ import { ProductList } from './styles';
         ))}
       </ProductList>
     );
-   }
+  }
 }
 export default connect()(Home);
