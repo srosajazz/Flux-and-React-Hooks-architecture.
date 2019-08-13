@@ -29,6 +29,7 @@ class Home extends Component {
     const { addToCartRequest } = this.props;
 
     addToCartRequest(id);
+    this.props.history.push('/cart');
   };
 
   render() {
