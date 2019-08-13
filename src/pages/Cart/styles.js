@@ -20,7 +20,7 @@ export const Container = styled.div`
     align-items: center;
 
     button {
-      background: #333
+      background: #FF3366
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -30,7 +30,7 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.03, '#55c57a')}
+        background: ${darken(0.03, '#BA265D')}
       }
 
     }

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const ProductList = styled.ul`
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   list-style: none;
@@ -33,7 +33,7 @@ export const ProductList = styled.ul`
     }
 
     button {
-      background:#28b485;
+      background: #ba265d;
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -45,17 +45,17 @@ export const ProductList = styled.ul`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.03, '#28b967')}
+        background: ${darken(0.03, '#eb2f64')};
       }
 
       div {
         display: flex;
         align-items: center;
         padding: 12px;
-        background: rgba(0, 0, 0,0.1);
-         svg {
-           margin-right: 5px;
-         }
+        background: rgba(0, 0, 0, 0.1);
+        svg {
+          margin-right: 5px;
+        }
       }
 
       span {
@@ -66,5 +66,3 @@ export const ProductList = styled.ul`
     }
   }
 `;
-
-

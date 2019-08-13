@@ -25,7 +25,7 @@ function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
         <thead>
           <tr>
             <th />
-            <th>PRODUTO</th>
+            <th>PRODUCT</th>
             <th>QTD</th>
             <th>SUBTOTAL</th>
             <th />
