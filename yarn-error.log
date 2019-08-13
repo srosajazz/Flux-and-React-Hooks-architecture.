@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/12.3.1/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add axios
+  /usr/local/Cellar/node/12.3.1/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add redux-saga
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin
