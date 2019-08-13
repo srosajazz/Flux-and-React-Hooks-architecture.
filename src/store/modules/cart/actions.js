@@ -27,10 +27,17 @@ export function updateAmountRequest(id, amount) {
   };
 }
 
-export function updateAmountSuccess(id, amount) {
+export function updateAmount(id, amount) {
   return {
-    type: '@cart/UPDATE_AMOUNT_SUCCESS',
+    type: '@cart/UPDATE_AMOUNT',
     id,
     amount,
   };
 }
+// export function updateAmountSuccess(id, amount) {
+//   return {
+//     type: '@cart/UPDATE_AMOUNT_SUCCESS',
+//     id,
+//     amount,
+//   };
+// }
